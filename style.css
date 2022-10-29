@@ -24,6 +24,7 @@ body {
     --blur-color: rgb(167, 166, 166);
     --bg-color: white;
     --main-txt: 6em;
+    --secondary-txt: 3em;
     --second-txt: 1.25em;
     --normal-txt: 1em;
     --third-txt: 1.75em;
@@ -473,6 +474,7 @@ footer {
     text-align: center;
     display: grid;
     place-items: center;
+    width: 100%;
 }
 
 
@@ -500,6 +502,10 @@ footer {
     }
     nav {
         order: 2;
+    }
+    .big-txt {
+        font-size: var(--secondary-txt);
+        margin-top: 0;
     }
     .btn-container {
         order: 1;
