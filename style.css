@@ -200,6 +200,7 @@ nav .link-container a:hover {
     color: var(--blur-color);
     display: flex;
     flex-wrap: wrap;
+    word-wrap: break-word;
 }
 
 .sub-txt span {
@@ -506,6 +507,9 @@ footer {
     .big-txt {
         font-size: var(--secondary-txt);
         margin-top: 0;
+    }
+    .sub-txt {
+        font-size: var(--normal-txt);
     }
     .btn-container {
         order: 1;
