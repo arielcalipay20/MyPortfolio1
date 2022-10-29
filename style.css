@@ -64,6 +64,7 @@ header {
 
 #first-icon {
     display: none;
+    color: var(--main-color);
 }
 
 .left-container {
