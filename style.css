@@ -315,6 +315,7 @@ nav .link-container a:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    vertical-align: middle;
 }
 
 
