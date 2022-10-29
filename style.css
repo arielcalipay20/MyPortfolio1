@@ -209,8 +209,10 @@ main {
 }
 
 .right-container {
-    width: 100%;
-    padding: 50px 80px;
+    /* width: 80%;
+    padding: 50px 80px; */
+    width: 80%;
+    margin: auto;
 }
 
 .main-img-container {
