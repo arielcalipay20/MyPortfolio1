@@ -480,10 +480,10 @@ footer {
 
 
 @media (max-width: 800px){
-    body {
+/*     body {
         display: grid; 
         place-items: center;
-    }
+    } */
     header {
         padding: 0 10px;
         justify-content: space-between;
